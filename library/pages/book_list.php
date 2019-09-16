@@ -1,5 +1,5 @@
 <?
-$result = mysqli_query($connection, "SELECT * FROM books");
+$result = mysqli_query($connection, "SELECT name, year FROM books");
 ?>
 <table border="1">
 <tr>
